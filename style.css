@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 0px 20px 0px 20px;
+}
+
+.container-white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 0px 20px 0px 20px;
+}
+
+.container-grey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 0px 20px 0px 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+    gap: 40px;
+    max-width: 1200px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+    gap: 40px;
+    max-width: 1000px;
+}
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cta-right {
+    display: block
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.square {
+    width: auto;
+    height: 250px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    gap: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+header {
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+footer {
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+footer p {
+    color: #e5e7eb;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.button-primary {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    width: 150px;
+    text-align: center;
+    height: 100%;
+}
+
+.button-secondary {
+    color: #f9faf8;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    width: 150px;
+    text-align: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+h3 {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #e5e7eb;
+}
+
+.container-white p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.cta p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #e5e7eb;
+}
+
+.author {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: right;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #f9faf8;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    color: #e5e7eb;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
